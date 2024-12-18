@@ -17,7 +17,7 @@ Users should be able to:
 ### Links
 
 - Github project URL: [URL](https://github.com/xgbdev/blog-preview-card/)
-- Project deployed on vercel: [URL](https://your-live-site-url.com)
+- Project deployed on vercel: [URL](https://blog-preview-card-1zsy.vercel.app/)
 
 ## My process
 
