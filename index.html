@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+      @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+      * { font-family: 'Figtree'; font-size: 16px;  }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    main {
+      box-shadow: rgba(0, 0, 0, 1) 7px 7px;
+    }
+  </style>
+</head>
+<body class="bg-[#F4D04E] flex flex-col items-center justify-center h-screen">
+  <main class="flex flex-col justify-center items-start container bg-white p-6 max-w-sm rounded-2xl shadow-black border-[1px] border-black mx-4">
+    <header>
+      <img class="rounded-xl" src="/assets/images/illustration-article.svg">
+    </header>
+    <b class="text-black bg-[#F4D04E] px-2 py-1 rounded text-center mt-6 mb-4">
+      Learning
+    </b>
+    <span class="mb-4 font-medium text-[#111]">Published 21 Dec 2023</span>
+    <h2 class="mb-4 font-extrabold text-2xl hover:text-[#F4D04E] transition-all hover:cursor-pointer">HTML & CSS foundations</h2>
+    <p class="text-[#6B6B6B]">
+      These languages are the backbone of every website, defining structure, content, and presentation.
+    </p>
+    <footer class="flex flex-row items-center mt-6">
+      <img class="size-[32px]" src="/assets/images/image-avatar.webp" alt="Picture of Greg Hooper">
+      <b class="font-extrabold ml-2 text-md">Greg Hooper</b>
+    </footer>
+  </main>
+</body>
+</html>
